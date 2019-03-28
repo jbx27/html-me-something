@@ -1,0 +1,81 @@
+/*Use margin and padding to space your elements in a visually pleasing way.
+Use at least one of each of the following types of selectors: element, class, id.
+Don't break these rules:
+
+    At all costs, avoid adding HTML elements in order to achieve a specific visual effect.
+    Use document-level and inline styles sparingly, and only when absolutely necessary.
+*/
+
+html, body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-color: darkslategrey;
+  border: 20px solid grey;
+  text-align: center;
+  font-size: 2em;
+}
+
+.prow {
+  width: 15%;
+  margin: 2% 7%;
+  border: 10px solid grey;
+  display: inline-block;
+}
+
+.p {
+  width: 15%;
+  margin: 2% 7%;
+  border: 10px solid black;
+  display: inline-block;
+}
+
+nav {
+  background-color: white;
+}
+
+.navigation ul {
+  z-index: 1;
+  position: relative;
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+}
+
+.navigation li {
+  width: 15%;
+  margin: 2% 7%;
+  background-color: grey;
+  color: darkolivegreen;
+  border: 10px solid grey;
+  font-weight: 900;
+}
+
+main {
+  background-color: darkolivegreen;
+  border: 20px solid grey;
+}
+
+.section {
+  text-align: center;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  margin: 75px 50px;
+}
+
+ul.col {
+  text-align: left;
+}
+
+
